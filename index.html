@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Curriculum Vitae: Rafael S. Aquino Azócar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    
+    <meta name="description" content="CV de Rafael Aquino, hecho 100% a mano">
+    <meta name="keywords" content="CV, HTML,CSS,JavaScript">
+    <meta name="author" content="Rafael Aquino - Curso de Raúl Jimenez">
+</head>
+<body>
+    <div id="header" class="center">
+        <ul>
+            <li><a href="#experiencia">Experiencia profesional</a></li>
+            <li><a href="#habilidades">Habilidades y Conocimeintos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#contactar">Contactar</a></li>
+        </ul>
+    </div>
+
+    <div id="container">
+        <div id="me">
+            <h1>Ing. Rafael Simón Aquino Azócar</h1>
+            <p>
+                Estoy aprendiendo como programar, por tanto tengo que aprender HTML5
+            </p>
+            <p>
+                Mi perfil para que sepas de mi es <a href="https://plus.google.com/u/0/+RafaelAquino1978" target="_blank">Mi perfil G+</a>
+            </p>
+        </div>
+
+        <hr>
+        <h2 id="experiencia">Experiencia profesional</h2>
+        <table id="expertise">
+            <thead>
+                <tr>
+                    <th>Empresa / Organización</th>
+                    <th>Cargo</th>
+                    <th>Localización</th>
+                    <th>Desde-hasta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IRDEZ</td>
+                    <td>Operador de Equip. Reproducción</td>
+                    <td>Maracaibo-Venezuela</td>
+                    <td>Ene 1997 - Ene 1998</td>
+                </tr>
+                <tr>
+                    <td>SOPEZULIA</td>
+                    <td>Auxiliar</td>
+                    <td>Maracaibo-Venezuela</td>
+                    <td>Ene 1998 - May 1999</td>
+                </tr>
+                <tr>
+                    <td>RIG SUPPLIES, S.A.</td>
+                    <td>Asistente técnico</td>
+                    <td>Maracaibo-Venezuela</td>
+                    <td>May 1999 - May 2000</td>
+                </tr>
+                <tr>
+                    <td>CAPITANIA DE PUERTO DE MARACAIBO</td>
+                    <td>Analista</td>
+                    <td>Maracaibo-Venezuela</td>
+                    <td>Sep 1999 - Actualidad</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <h2 id="habilidades">Habilidades y conocimientos</h2>
+        <ul>
+            <li><strong>Desarrollo web:</strong>Apenas empezando</li>
+            <li><strong>bla bla:</strong>otras habilidades</li>
+        </ul>
+    
+        <hr>
+        <h2 id="educacion">Estudios Realizados</h2>
+        <table id="education">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Entidad</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ingeniero en computación</td>
+                    <td>URBE</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Bachiller en ciencias</td>
+                    <td>Beracasas</td>
+                    <td>1995</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <h2 id="contactar">Contactar</h2>
+        <form id="email" method="get">
+            <label for="to">Para: </label>
+            <input type="email" required="" id="to">
+
+            <label for="topic">Temática: </label>
+            <select id="topic">
+                <option>-- Elige un tema --</option>
+                <option >Consulta</option>
+                <option >Propuesta</option>
+                <option >Reporte</option>
+                <option >Otro</option>
+            </select>
+            
+            <br>            
+            <label for="subject">Asunto:</label>
+            <input id="subject" type="text" required="">
+
+            <br>
+            <label for="body" class="form">Cuerpo:</label>
+            <textarea  id="body" cols="50" rows="2" required=""></textarea>
+
+        </form>
+
+        <p id="footer" class="center">
+            Todos podemos programar, con la ayuda de Internet
+        </p>
+    </div>
+</body>
+</html>
