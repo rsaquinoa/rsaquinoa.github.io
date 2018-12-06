@@ -1,0 +1,48 @@
+body{
+    background-color: darkgray;
+}
+
+h1{
+    color: red;
+    font: bolder 30px 'Times New Roman', Times, Serif;
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+h2{
+    color: blue;
+    font-size: 20px;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#experiencia{
+    font-size: large;
+}
+
+.destacado{
+    color: blue;
+}
+
+strong{
+    font-weight: normal;
+}
+
+h1 span{
+    color: red;
+}
+
+p{
+    color: initial;
+}
+
+p.big{
+    font-size: 2rem;
+}
+
+p.big span{
+    font-weight: bold;
+}
